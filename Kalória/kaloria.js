@@ -30,11 +30,14 @@ sz.textContent = szénhidrát.toPrecision(4)+"g";
 let marha = document.getElementById("marha");
 let marhaCal = (fehérje*100/22); // fehérje kiszámolt értéke*100g/ahány gramm fehérje van 100g-ban
 marha.textContent = marhaCal.toPrecision(4) + "g";
+marha.classList.add("color");
 
 let zsírtartalom = document.getElementById("sertésZsír");
 let zsírCal = (zsír*100/116); // zsír kiszámolt értéke*100g/ahány gramm fehérje van 100g-ban
 zsírtartalom.textContent = zsírCal.toPrecision(4) + "g";
+zsírtartalom.classList.add("color");
 
 let szénhidrátTartalom = document.getElementById("krumpli");
 let szénhidrátCal = (szénhidrát*100/19); // szénhidrát kiszámolt értéke*100g/ahány gramm fehérje van 100g-ban
 szénhidrátTartalom.textContent = szénhidrátCal.toPrecision(4) + "g";
+szénhidrátTartalom.classList.add("color");
