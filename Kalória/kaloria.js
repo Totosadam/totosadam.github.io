@@ -4,11 +4,22 @@
 
 
 //let test = 75;
-let test = prompt("Hány kiló vagy?")
+let test = prompt("Hány kiló vagy?");
+while(test<50 || test>200){
+    alert("Nem jó értéket adtál meg 50-200 közötti értéket adj meg!");
+    test = prompt("Hány kiló vagy?");
+    test++;
+    test--;
+};
+
 let testsúly = Number(test);
 
 //let életkor = prompt("Hány éves vagy?")
 //let kor = Number(életkor);
+
+//Súly kiirása HTML-be
+let sulyHTML = document.getElementById("súlyod");
+sulyHTML.textContent = test + "kg";
 
 //Szintentartó Cal kiszámítása
 let szintTartKaloria = 15.3*testsúly+679;
@@ -189,6 +200,8 @@ hagymakcalSpan.textContent = hagymaKcal.toPrecision(3) + "Kcal";
 let hagymaSelect = document.querySelector("#hagyma");
 hagymaSelect.textContent = hagymaszámol.toPrecision(4);
 hagymaSelect.classList.add("color");
+
+//
 
 
 
