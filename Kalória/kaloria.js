@@ -16,6 +16,9 @@ let szintTartKaloria = 15.3*testsúly+679;
 let fehérje = (szintTartKaloria*0.2)/4;
 let zsír = szintTartKaloria*0.3/9;
 let szénhidrát = szintTartKaloria*0.5/4;
+let napiKalória = fehérje*4 + zsír*9 + szénhidrát*4;
+let napikalóriaszükséglet = document.getElementById("kalóriaszükséglet");
+napikalóriaszükséglet.textContent = napiKalória.toPrecision(4);
 
 //Makrók HTML-be kiirása
 let f = document.getElementById("fehérje");
@@ -69,7 +72,7 @@ let marhaszám = (marhaCal/marhaalap);
 let krumpliszám = (szénhidrátCal/burgonyaalap);
 let növekvés = (krumpliszám-marhaszám);
 
-//sárgarépának az értékének a kiszámolása és HTML-be kiírása.
+//Ősszetevők értékének a kiszámolása és HTML-be kiírása.
 let sárgarépaszámol = sárgarépa*növekvés;
 let répa = document.querySelector("#répa");
 répa.textContent = sárgarépaszámol.toPrecision(4);
