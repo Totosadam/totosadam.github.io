@@ -1,0 +1,303 @@
+
+#program-szlogen {
+    color:#003352;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+#igéret-div{
+    margin-bottom: 5vw;
+}
+
+#igéret{
+    color:#0095F2 ;
+    text-align: center;
+
+}
+#lista{
+    font-size: 20px;
+}
+
+#elhelyezkedés{
+    color: #003352;
+    text-align: center;
+    margin-top: 3.5vw;
+    margin-bottom: 4vw;
+
+}
+
+#Galéria{
+    color:#003352 ;
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+}
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 75%;  /* The width is the width of the web page */
+    margin: auto;
+   }
+
+   #map-div{
+       margin-bottom: 5vw;
+       text-align: center;
+
+   }
+
+.képek{
+    width: 400px;
+    margin: auto;
+    display: inline-block;
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+}
+
+.igéret-li{
+    margin: 2vw 0vw 2vw 10vw;
+    color:#003352;
+    font-weight: 500;
+}
+.igéret2-li{
+    margin: 2vw 0vw 2vw 10vw;
+    color:#003352;
+    font-weight: 500;
+    background-color:rgba(90,200,247, 0.2);
+    padding: 0.5vw 0vw 0.5vw 1vw;
+    margin-right: 15vw;
+}
+
+.color {
+    background-color: gray;
+}
+
+h3 {
+    color:white;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    
+}
+
+#container {
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 8px 0px #DBDBDB;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255,255,255, 1);
+   
+
+}
+
+#táblázat{
+    border: 2px solid gray;
+    margin: auto;
+}
+
+#gomb2{
+    margin: 4vw;
+    background: #003352;
+    font-size: 1.3vw;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 0.35vw;
+}
+
+#vissza{
+    background: white;
+    font-size: 1.3vw;
+    border-radius: 4px;
+    border: none;
+    color: #003352;
+    padding: 0.35vw;
+}
+
+#gomb-div{
+   text-align: center;
+}
+
+#időpontok{
+    color:#003352;
+    text-align: center;
+    padding: 2vw 0vw 2vw 0vw;
+    
+}
+
+#footer{
+    background-color: #003352;
+    height: 7vw;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 1vw;
+}
+
+td{
+    padding: 0vw 1vw 0vw 1vw;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+#jelentkezés {
+    background-color:#003352;
+    text-align: center;
+    padding: 3vw 0vw 0.3vw 0vw;
+
+}
+
+#edzők-div{
+    margin-bottom: 2vw;
+}
+
+#Utad{
+    margin-bottom: 4vw;
+}
+
+.edzők{
+    display: inline;
+    height: 20vw;
+    border-radius: 100vw;
+    margin-right: 5vw;
+}
+
+.nevek-1{
+    display: inline-block;
+    font-size: 1.2vw;
+}
+.nevek-2{
+    display: inline-block;
+    margin-right: 3vw;
+    font-size: 1.2vw;
+    margin-left: 5vw;
+}
+.nevek-3{
+    display: inline-block;
+    margin-right: 3.6vw;
+    font-size: 1.2vw;
+    margin-left: 1vw;
+}
+.lista-nevek{
+    list-style-type: none;
+    margin-right: 1vw;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#nevek-div{
+    margin-top: 1.2vw;
+}
+
+
+#body {
+    background-color: #003352;
+    height: 100%;
+}
+
+#slogen{
+    margin-top:68px ;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/20/08/35/sport-2245029_1280.jpg);
+    
+}
+
+#slogen-innerDiv{
+    background-color:#001B3395;
+    overflow: hidden;
+    height: 100%;
+    padding: 120px 0px 200px 0px ;
+    text-align: center;
+}
+
+#brand-name{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    display: inline;
+    color: #003352;
+    margin-left: 35px;
+}
+
+.nav-buttons {
+    background: #003352;
+    font-size: 1.6vw;
+    float: right;
+    border-radius: 4px;
+    border: none;
+    margin-right: 30px;
+    margin-top: 5px;
+    color: white;
+    padding: 0.35vw;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#adatok{
+    margin-left: 7vw;
+}
+
+#vissza-föoldal{
+    text-align: center;
+    margin-top: 5vw;
+    
+}
+
+#foglalás-head{
+   padding-top:8vw;
+    color: teal;
+    margin-left: 5vw;
+}
+
+form{
+    color: white;
+}
+#idopont {
+   margin:auto;
+   margin-top:30px ;
+  display:block;
+  background: white;
+  font-size: 1.3vw;
+  border-radius: 4px;
+  border: none;
+  color: #003352;
+  padding: 0.35vw;
+    
+}
+
+.összetevőkFehérjéje {
+    display: nonewd;
+}
+
+#foglalás-div{
+    margin: 0px 0vw 0px 34vw;
+}
+
+.jelentkezés-link{
+    display: inline;
+}
+.jelentkezés-szöveg {
+    display: inline;
+    padding-top: 5vw;
+    margin-right: 5vw;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.jelentkezés-gomb {
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: none;
+}
